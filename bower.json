@@ -1,0 +1,22 @@
+{
+  "name": "formValidation",
+  "version": "1.0.0",
+  "homepage": "https://gitlab.com/souravmondal10/",
+  "authors": [
+    "Sourav Mondal <souravmondal.cn@gmail.com>"
+  ],
+  "license": "proprietory",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fontawesome": "~4.3.0",
+    "Semantic-UI": "*",
+    "jquery-ui": "*"
+  }
+}
