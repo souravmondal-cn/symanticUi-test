@@ -10,17 +10,17 @@
     </head>
     <body id="grid">
         <div class="container">
-            <ul class="ui inverted menu">
-                <li class="active item">
-                    <a><i class="home icon"></i> Home</a>
-                </li>
-                <li class="item">
-                    <i class="mail icon"></i> Messages
-                </li>
-                <li class="item">
-                    <i class="user icon"></i> Friends
-                </li>
-            </ul>
+            <div class="ui inverted menu">
+              <a class="active item">
+                <i class="home icon"></i> Home
+              </a>
+              <a class="item">
+                <i class="mail icon"></i> Messages
+              </a>
+              <a class="item">
+                <i class="user icon"></i> Friends
+              </a>
+            </div>
             <div class="ui grid">
                 <div class="row">
                     <div class="five wide column">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <div class="ui modal" id="alertMessage">
             <i class="close icon"></i>
             <div class="content">
